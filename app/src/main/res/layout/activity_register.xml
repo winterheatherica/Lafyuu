@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegisterActivity">
+
+    <LinearLayout
+        android:id="@+id/LoginLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="UseCompoundDrawables">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:src="@drawable/iconapp"
+            tools:ignore="ContentDescription, ImageContrastCheck" />
+
+        <TextView
+            android:id="@+id/WelcomeText"
+            style="@style/txtPoppinsbold16"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingVertical="10dp"
+            android:text="@string/get_started"
+            android:layout_gravity="center"
+            tools:ignore="TextSizeCheck" />
+
+        <TextView
+            style="@style/txtPoppinsregular12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/create_account"
+            tools:ignore="TextSizeCheck,TextContrastCheck" />
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/NameForm"
+            style="@style/txtPoppinsregular12_3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="40dp"
+            android:layout_marginTop="25dp"
+            android:layout_marginBottom="8dp"
+            android:background="@drawable/rectangle_bg_white_a700_border_blue_50_radius_5"
+            android:drawableStart="@drawable/padding_img_lock"
+            android:hint="@string/Name"
+            android:textColor="@android:color/black"
+            android:minHeight="48dp"
+            tools:ignore="VisualLintTextFieldSize,TextSizeCheck" />
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/EmailForm"
+            style="@style/txtPoppinsregular12_3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="40dp"
+            android:layout_marginBottom="8dp"
+            android:background="@drawable/rectangle_bg_white_a700_border_blue_50_radius_5"
+            android:drawableStart="@drawable/padding_img_arrowdown"
+            android:hint="@string/EmailForm"
+            android:inputType="textEmailAddress"
+            android:textColor="@android:color/black"
+            android:minHeight="48dp"
+            tools:ignore="VisualLintTextFieldSize,TextSizeCheck" />
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/PasswordForm"
+            style="@style/txtPoppinsregular12_3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="40dp"
+            android:background="@drawable/rectangle_bg_white_a700_border_blue_50_radius_5"
+            android:drawableStart="@drawable/padding_img_location"
+            android:hint="@string/Password"
+            android:inputType="textPassword"
+            android:textColor="@android:color/black"
+            android:minHeight="48dp"
+            tools:ignore="VisualLintTextFieldSize,TextSizeCheck" />
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/PasswordFormConfirm"
+            style="@style/txtPoppinsregular12_3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="40dp"
+            android:background="@drawable/rectangle_bg_white_a700_border_blue_50_radius_5"
+            android:drawableStart="@drawable/padding_img_location"
+            android:hint="@string/Password_Again"
+            android:inputType="textPassword"
+            android:textColor="@android:color/black"
+            android:minHeight="48dp"
+            tools:ignore="VisualLintTextFieldSize,TextSizeCheck" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/BTNSignUp"
+            style="@style/btnSolidRounded"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_16pxh"
+            android:layout_marginTop="@dimen/_16pxv"
+            android:layout_marginEnd="@dimen/_16pxh"
+            android:paddingStart="@dimen/_30pxh"
+            android:paddingTop="@dimen/_18pxv"
+            android:paddingEnd="@dimen/_30pxh"
+            android:paddingBottom="@dimen/_18pxv"
+            android:text="@string/sign_up"
+            tools:ignore="TextSizeCheck" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center_horizontal">
+
+            <TextView
+                android:id="@+id/txtConfirmation"
+                style="@style/txtPoppinsregular12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="@dimen/_20pxv"
+                android:text="@string/Have_one"
+                tools:ignore="TextSizeCheck" />
+
+            <TextView
+                android:id="@+id/signin"
+                style="@style/txtPoppinsbold12_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:clickable="true"
+                android:minWidth="48dp"
+                android:text="@string/sign_in"
+                tools:ignore="TextSizeCheck,TouchTargetSizeCheck" />
+        </LinearLayout>
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

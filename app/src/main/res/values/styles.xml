@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <style name="txtPoppinsbold10">
+        <item name="android:textSize">@dimen/_10pxh</item>
+        <item name="android:textColor">@color/pink_300</item>
+        <item name="android:fontFamily">@font/poppins</item>
+        <item name="android:textFontWeight">700</item>
+    </style>
+    <style name="txtPoppinsbold14">
+        <item name="android:textSize">@dimen/_14pxh</item>
+        <item name="android:textColor">@color/white_A700</item>
+        <item name="android:fontFamily">@font/poppins</item>
+        <item name="android:textFontWeight" >700</item>
+    </style>
+    <style name="txtPoppinsbold12">
+        <item name="android:textSize">@dimen/_12pxh</item>
+        <item name="android:textColor">@color/indigo_900</item>
+        <item name="android:fontFamily">@font/poppins</item>
+        <item name="android:textFontWeight" >700</item>
+    </style>
+    <style name="txtPoppinsbold16">
+        <item name="android:textSize">@dimen/_16pxh</item>
+        <item name="android:textColor">@color/indigo_900</item>
+        <item name="android:fontFamily">@font/poppins</item>
+        <item name="android:textFontWeight" >700</item>
+    </style>
+    <style name="txtPoppinssemibold12">
+        <item name="android:textSize">@dimen/_12pxh</item>
+        <item name="android:textColor">@color/bluegray_300</item>
+        <item name="android:fontFamily">@font/poppins</item>
+        <item name="android:textFontWeight" >600</item>
+    </style>
+    <style name="txtPoppinsregular12">
+        <item name="android:textSize">@dimen/_12pxh</item>
+        <item name="android:textColor">@color/bluegray_300</item>
+        <item name="android:fontFamily">@font/poppins</item>
+        <item name="android:textFontWeight" >400</item>
+    </style>
+    <style name="txtPoppinsregular10">
+        <item name="android:textSize">@dimen/_10pxh</item>
+        <item name="android:textColor">@color/bluegray_300</item>
+        <item name="android:fontFamily">@font/poppins</item>
+        <item name="android:textFontWeight" >400</item>
+    </style>
+    <style name="txtPoppinsbold24_1">
+        <item name="android:textSize">@dimen/_24pxh</item>
+        <item name="android:textColor">@color/indigo_900</item>
+        <item name="android:fontFamily">@font/poppins</item>
+        <item name="android:textFontWeight" >700</item>
+    </style>
+    <style name="txtPoppinsbold20_1">
+        <item name="android:textSize">@dimen/_20pxh</item>
+        <item name="android:textColor">@color/light_blue_A200</item>
+        <item name="android:fontFamily">@font/poppins</item>
+        <item name="android:textFontWeight" >700</item>
+    </style>
+    <style name="txtPoppinsbold14_4">
+        <item name="android:textSize">@dimen/_14pxh</item>
+        <item name="android:textColor">@color/pink_300</item>
+        <item name="android:fontFamily">@font/poppins</item>
+        <item name="android:textFontWeight" >700</item>
+    </style>
+    <style name="txtPoppinsbold14_2">
+        <item name="android:textSize">@dimen/_14pxh</item>
+        <item name="android:textColor">@color/light_blue_A200</item>
+        <item name="android:fontFamily">@font/poppins</item>
+        <item name="android:textFontWeight">700</item>
+    </style>
+    <style name="txtPoppinsbold12_4">
+        <item name="android:textSize">@dimen/_12pxh</item>
+        <item name="android:textColor">@color/indigo_900_87</item>
+        <item name="android:fontFamily">@font/poppins</item>
+        <item name="android:textFontWeight">700</item>
+    </style>
+    <style name="txtPoppinsbold16_1">
+        <item name="android:textSize">@dimen/_16pxh</item>
+        <item name="android:textColor">@color/white_A700</item>
+        <item name="android:fontFamily">@font/poppins</item>
+        <item name="android:textFontWeight">700</item>
+    </style>
+    <style name="txtPoppinsbold14_3">
+        <item name="android:textSize">@dimen/_14pxh</item>
+        <item name="android:textColor">@color/bluegray_300</item>
+        <item name="android:fontFamily">@font/poppins</item>
+        <item name="android:textFontWeight">700</item>
+    </style>
+    <style name="txtPoppinsbold12_2">
+        <item name="android:textSize">@dimen/_12pxh</item>
+        <item name="android:textColor">@color/indigo_A200</item>
+        <item name="android:fontFamily">@font/poppins</item>
+        <item name="android:textFontWeight">700</item>
+    </style>
+    <style name="txtPoppinsbold14_1">
+        <item name="android:textSize">@dimen/_14pxh</item>
+        <item name="android:textColor">@color/indigo_900</item>
+        <item name="android:fontFamily">@font/poppins</item>
+        <item name="android:textFontWeight">700</item>
+    </style>
+    <style name="txtPoppinsbold12_3">
+        <item name="android:textSize">@dimen/_12pxh</item>
+        <item name="android:textColor">@color/bluegray_300</item>
+        <item name="android:fontFamily">@font/poppins</item>
+        <item name="android:textFontWeight">700</item>
+    </style>
+    <style name="txtPoppinsregular10_2">
+        <item name="android:textSize">@dimen/_10pxh</item>
+        <item name="android:textColor">@color/white_A700_87</item>
+        <item name="android:fontFamily">@font/poppins</item>
+        <item name="android:textFontWeight">400</item>
+    </style>
+    <style name="txtPoppinsbold10_2">
+        <item name="android:textSize">@dimen/_10pxh</item>
+        <item name="android:textColor">@color/white_A700</item>
+        <item name="android:fontFamily">@font/poppins</item>
+        <item name="android:textFontWeight">700</item>
+    </style>
+    <style name="txtPoppinsbold12_1">
+        <item name="android:textSize">@dimen/_12pxh</item>
+        <item name="android:textColor">@color/light_blue_A200</item>
+        <item name="android:fontFamily">@font/poppins</item>
+        <item name="android:textFontWeight">700</item>
+    </style>
+    <style name="txtPoppinsregular10_1">
+        <item name="android:textSize">@dimen/_10pxh</item>
+        <item name="android:textColor">@color/indigo_900</item>
+        <item name="android:fontFamily">@font/poppins</item>
+        <item name="android:textFontWeight">400</item>
+    </style>
+    <style name="txtPoppinsbold10_3">
+        <item name="android:textSize">@dimen/_10pxh</item>
+        <item name="android:textColor">@color/light_blue_A200</item>
+        <item name="android:fontFamily">@font/poppins</item>
+        <item name="android:textFontWeight">700</item>
+    </style>
+    <style name="txtPoppinsbold10_1">
+        <item name="android:textSize">@dimen/_10pxh</item>
+        <item name="android:textColor">@color/bluegray_300</item>
+        <item name="android:fontFamily">@font/poppins</item>
+        <item name="android:textFontWeight">700</item>
+    </style>
+    <style name="txtPoppinsregular12_3">
+        <item name="android:textSize">@dimen/_12pxh</item>
+        <item name="android:textColor">@color/white_A700</item>
+        <item name="android:fontFamily">@font/poppins</item>
+        <item name="android:textFontWeight" >400</item>
+    </style>
+    <style name="txtPoppinsregular12_1">
+        <item name="android:textSize">@dimen/_12pxh</item>
+        <item name="android:textColor">@color/indigo_900_87</item>
+        <item name="android:fontFamily">@font/poppins</item>
+        <item name="android:textFontWeight" >400</item>
+    </style>
+    <style name="txtPoppinsbold20">
+        <item name="android:textSize">@dimen/_20pxh</item>
+        <item name="android:textColor">@color/indigo_900</item>
+        <item name="android:fontFamily">@font/poppins</item>
+        <item name="android:textFontWeight" >700</item>
+    </style>
+    <style name="txtPoppinsbold24">
+        <item name="android:textSize">@dimen/_24pxh</item>
+        <item name="android:textColor">@color/white_A700</item>
+        <item name="android:fontFamily">@font/poppins</item>
+        <item name="android:textFontWeight" >700</item>
+    </style>
+    <style name="btnSolidRounded">
+        <item name="android:textSize">@dimen/_14pxh</item>
+        <item name="android:textColor">@color/white_A700</item>
+        <item name="android:fontFamily">@font/poppins</item>
+        <item name="android:textFontWeight">700</item>
+        <item name="android:background">@drawable/rectangle_bg_light_blue_a200_radius_5</item>
+    </style>
+    <style name="groupStylecornerRadius_1">
+        <item name="android:background">@drawable/rectangle_border_blue_50_radius_5</item>
+    </style>
+    <style name="groupStylecornerRadius">
+        <item name="android:background">@drawable/rectangle_radius_5</item>
+    </style>
+    <style name="NewCombinedButtonStyle">
+        <item name="android:background">@drawable/rectangle_border_blue_50_radius_5</item>
+        <item name="android:textSize">@dimen/_14pxh</item>
+        <item name="android:textColor">@color/bluegray_300</item>
+        <item name="android:fontFamily">@font/poppins</item>
+        <item name="android:textFontWeight">700</item>
+    </style>
+</resources>

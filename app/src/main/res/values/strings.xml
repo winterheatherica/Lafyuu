@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">LafYuu</string>
+    <string name="todo">TODO</string>
+    <string name="SplashLogo" />
+    <string name="welcome_to_lafyuu">Welcome to Lafyuu</string>
+    <string name="get_started">Lets Get Started</string>
+    <string name="sign_in_to_continue">Sign in to continue</string>
+    <string name="EmailForm">Your Email</string>
+    <string name="PasswordForm">Your Password</string>
+    <string name="sign_in">Sign In</string>
+    <string name="or_label">OR</string>
+    <string name="google_sign_in">Login With Google</string>
+    <string name="facebook_sign_in">Login In With Facebook</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="dont_have">Don"t have an account?</string>
+    <string name="register">Register</string>
+    <string name="Name">Full Name</string>
+    <string name="Password">Password</string>
+    <string name="Password_Again">Password Again</string>
+    <string name="Have_one">Have a Account?</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="create_account">Create an new account</string>
+    <string name="category_icon">Dress</string>
+    <string name="FlashSale">Super Flash Sale 50% Off</string>
+    <string name="back">Back</string>
+    <string name="favorite_product">Favorite Product</string>
+    <string name="search">Search</string>
+    <string name="user">PictureProfile</string>
+</resources>
